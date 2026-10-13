@@ -1,0 +1,33 @@
+# Environment variables and secrets (Strict requirement: No .env, secrets)
+.env
+.env.*
+*.env
+
+# Docker files (Strict requirement: No Dockerfile)
+Dockerfile
+docker-compose*.yml
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
